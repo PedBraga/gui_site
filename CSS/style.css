@@ -1,0 +1,389 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+å
+:root {
+    --blue:#204F75;
+    --yellow:#FFD143;
+}
+
+
+
+
+
+
+
+
+/* BOOTSTRAP PORTION as main*/
+.firstNav{
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    align-items:flex-start;
+}
+
+.topWording{
+margin-top: 30px;
+display: flex;
+height: 10vw;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content:flex-end;
+align-items:center;
+}
+
+
+.navbar-toggler-icon{
+   color: #204F75;
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(32,79,117, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   
+}
+
+  .navbar-nav a{
+    color:#204F75;
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;  
+}
+
+.imgTop{
+
+    background-image: url("../Html/board.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    filter: blur(.2px);
+    background-blend-mode: screen;
+    background-attachment: fixed;
+   /* background: rgb(32,79,117);
+    background: linear-gradient(90deg, rgba(32,79,117,1) 34%, rgba(32,71,95,0.6923144257703081) 88%, rgba(20,36,0,0.5158438375350141) 99%);
+   */ 
+}
+
+
+.jumbotron{
+   background: transparent;
+   color:white;
+   
+}
+.jumbotron p{
+    font-family: 'Oxygen', sans-serif;
+    
+
+}
+
+.jumbotron h2{
+
+    font-family: 'Oxygen', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+.jumbotron .btn{
+    border: none;
+ 
+   background-color: var(--yellow);
+   color: white;
+}
+.btn-hov:hover{
+    box-shadow: 0px 0px 5px #fff;
+    color:var(--blue);
+}
+
+
+.free-promo{
+    background-image:url('../Html/imgs/tri-back.jpg');
+    margin-bottom: 80px;
+
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+
+
+
+.info-box{
+  
+    background-color: white;
+    height: 230px;
+    width: 190px;
+    -webkit-box-shadow: 8px 8px 6px 6px black;
+    -moz-box-shadow: 8px 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.sentence-top {
+    height: 250px;
+}
+.sentence-top h6{
+    margin-top: 60px;
+    color: #204F75;
+    font-size: 2.3rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.info-box svg{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: var(--blue);
+
+}
+.card-body h6{
+    letter-spacing: 2px;
+    color: #204F75;
+}
+.card-body p{
+    color: #204F75;
+    font-size: 15px;
+}
+
+
+
+#div-but{
+
+    color: #204F75;
+    position: fixed;
+    margin:30px 600px 0 100px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 50px;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+
+}
+.btn1{
+    background: linear-gradient(to right,#FFD143,#FFD143);
+    transform: translate3d(0,0,0);
+}
+#div-but::before{
+
+    content: '';
+    position: absolute;
+
+    width: 10px;
+    background:  #f2f2f2;
+    box-shadow: 0 0 3 #fff;
+    opacity: .2;
+    filter: blur(1px);
+    opacity: 0.9;
+    top: -30px;
+    transition: 0.7s;
+    transform: rotate(-20deg) translateX(-60px);
+   
+    
+    
+
+
+}
+#div-but:hover:before{
+    transform: rotate(-20deg) translate(140px, 70px);
+
+}
+
+
+/* Here begins mobile version of bullet points */ 
+
+.white-bk-promo{
+    height: 150px;
+    background-color: #204F75;
+    margin-top: 30px;
+}
+.white-bk-promo p{
+    font-size: 10vw;
+ 
+}
+
+.mobile-bullet{
+    margin-top: 30px;
+    height: 300px;
+    background-image:url('../Html/imgs/tri-back.jpg'); 
+
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.mobile-bullet svg{
+    color: #ffc61a ;
+
+}
+
+
+
+ li{
+
+    font-family: 'NTR', sans-serif;
+    font-size: 20px;
+    list-style-type:square;
+   
+}
+
+li :first-of-type{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+/*About section*/
+
+
+.about-me{
+ 
+    background-color:white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.about-me .container{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.row p{
+    color: #204F75;
+}
+
+#commited-head{
+    margin-top: 30px;
+    font-size: 6.4vh;
+    color: #204F75;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.3;
+    
+
+
+    
+}
+.bold-txt-yellow{
+    color: var(--yellow);
+}
+#commited-txt{
+    color: #204F75;
+    font-size: 1.3rem;
+}
+
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}
+ul li{
+    list-style-type:square;
+    font-size: 15px;
+
+    display: inline-block;
+    text-align: left;
+
+}
+
+/*  
+footer{
+    height: 80px;
+    width: auto;
+    background-color: #204F75;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+*/
+.foot-note p{
+    margin-top: 30px;
+ color: white;
+    font-size: 15px;
+}
+
+.mustache{
+    margin-right: 25px;
+    margin-top: 30px;
+    height: 10px;
+    width: auto;
+ 
+}
+.must-div{
+    height: 40px;
+    width: auto;
+}
+.pb-design p{
+ font-size: 10px;
+ color: white;
+}
+
+/*Phone hacks*/
+@media(max-width:990px){
+    .firstNav{
+        margin-top: 30px;
+     
+    }
+    #nav-Section{
+        display: none;
+     }
+     .desk-bullet{
+        height: 500px;
+        width: auto;
+     
+    }
+    display-4{
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+
+/*Phone hacks*/
+@media(max-width:990px){
+
+    .free-promo{
+        background-image:url('../Html/imgs/tri-back.jpg');
+       
+    
+        background-repeat: no-repeat;
+       background-size: cover;
+    }
+  
+    .info-box{
+          background-color: white;
+          margin-top: 40px;
+     height:300px;
+    
+    width: 98%;
+    
+    -webkit-box-shadow: 8px 8px 6px 6px black;
+    -moz-box-shadow: 8px 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+     }
+    .info-box svg{
+
+        margin-bottom:10px;
+        color: #204F75;
+    
+    }
+ 
+
+
+    .card-title{
+        font-size: 2rem;
+    }
+    .card-body p{
+        font-size: 1.4rem;
+       
+    }
+}

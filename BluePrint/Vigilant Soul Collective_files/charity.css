@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  margin:0px;
+ 
+  text-align:center;
+}
+
+#fun-cont {
+  color:#999;
+
+  font-size:26px;
+  font-weight:bold;
+  margin-top:100px;  
+  margin-bottom: 100px;
+  position:relative;
+  font-family: Didot,serif;
+
+ 
+}
+
+#flip {
+  height:38px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color: #999;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+ 
+}
+#flip div:first-child div {
+ 
+}
+#flip div:last-child div {
+
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+
+
+
+/* IDEA: Charity portion */
+
+.relief {
+    cursor: pointer;
+   box-shadow: inset 140px 150px 150px white;
+    position: relative;
+    overflow: hidden;
+   width: auto;
+    text-align: center;
+    background-image: url('../imgs/kidsStrong.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+  }
+  .relief .fadedbox {
+    background-color: #999489;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    height: 400px;
+    width: 100%;
+    padding: 130px 20px;
+  }
+  .relief:hover .fadedbox {
+    opacity: 0.8;
+  }
+  .relief .text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+  }
+  .relief .title {
+    font-size: 5.2vw;
+    font-family: 'Arapey', serif;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+  }
+  .title hr{
+ 
+     border: 0;
+     height: 1px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+ }
+ 
+  .relief:hover .title,
+  .relief:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+ 
+ .btn-fund{
+   background-color: white;
+   border: none;
+   color: #999489;
+ }
+ .btn-fund:active{
+ background-color:  white;
+ border: none;
+ color: #999489;
+ }
+ .btn-fund:hover{
+ background-color:  white;
+ border: none;
+ color: #999489;
+ }
+ .btn-fund:focus{
+   background-color:  white;
+ border: none;
+ color:#999489;
+ }
+
+ 
+ 

@@ -1,0 +1,33 @@
+.ExOne{
+    height: 80px;
+    background-color :antiquewhite; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameForm{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    height: 80px;
+    opacity: .6;
+}
+.getName{
+    display:flex;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.getName input{
+height: 20px;
+}
+/*
+    The separation of good and evil is unexcapable. This is the truth.
+    In order for  individual to inhabit time and space, he is faced with the fact that cleaner water 
+     is best to drink over impure waters.  Aha! Objectivity does exist. Clean is acceptable. Objectivy  exist. (some things are
+    conclusive. Of all the best virtues: Reason is the most important of all. The separation of Good and evil is a calling for the heart of every
+    conscious being. It takes one to  "reason" the fact that "not all things" are good for him, and sacrifices must be made"...
+
+*/

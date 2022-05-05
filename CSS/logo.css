@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
+
+.font-cont{
+    margin-top: 10px;
+    height: 100px;
+    width: auto;
+}
+.logo{
+    margin-top: 15px;
+    font-family: 'Ranga', cursive;
+    font-size: 80px;
+    color: #FFD143;
+}

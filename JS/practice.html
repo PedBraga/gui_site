@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+
+<body>
+    <section class="ExOne">
+        <div class="nameForm">
+            <form action="" class="getName">
+                    <input type="text" id="fname"  value=""><br>
+                    <input type="text" id="lname"  value=""><br><br>
+                    <button id="result">Try it</button>
+            </form>
+           
+
+
+        </div>
+
+    </section>
+
+<script>
+
+
+document.getElementById("result").onclick = function(){
+personel();
+}
+function personel(){
+   var firstName = document.getElementById("fname").value;
+    var lastName = document.getElementById("lname").value;
+    alert(firstName + lastName);
+ 
+   } //personel()
+   
+
+</script>
+
+
+<script>
+    /*
+ //-------------------------------EXAMPLE 1 --------------------------------------//
+ // There are examples on how to use objects. 
+var Pedro = {
+FirstName: "Pedro ",
+LastName: "Braga"
+}; //A person object: But not really same as a Java "class". 
+    //Best done as following... :
+// #1
+function Person(first, last) {
+  this.firstName = first;
+  this.lastName = last;
+}//A person function, much like  a Java constructor and class type. 
+
+// #2
+//now create instances and pass values....
+var wife = new Person("Shayna", "Braga");
+//or add to the instances.
+wife.hairColor = "black";
+
+// #3
+//Functions can be added as well, and these functions  however acts as the getter and setter.
+wife.name = function(){
+    return this.firstName + " " + this.lastName;
+}
+
+// #4
+//The process of retrieving the object is complete.
+console.log(wife.name());
+
+//-------------------------------EXAMPLE 2--------------------------------------//
+
+function individual(first, last) {
+  this.firstName = first;
+  this.lastName = last;
+
+  function gettName(){
+    return this.firstName + " " + this.lastName;
+  }
+  return gettName();
+} // An individual obj 'class'.
+
+console.log(individual("Sandro","Braga")); // or..pass instances into the function and retrieve with an in scope method.
+
+var Pedro = new individual("Pedro"," Braga");
+Pedro.name = function gtName(){
+return this.firstName + " " + this.lastName;
+}
+console.log(Pedro.name());
+*/
+
+</script>
+
+
+</body>
+</html>

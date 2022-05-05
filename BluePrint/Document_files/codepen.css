@@ -1,0 +1,62 @@
+/* This section is product secion 3rd design*/
+.free-promo{
+    background-image:url('../../Html/imgs/triback.jpg');
+    height: 600px;
+    width: auto;
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+
+
+
+
+
+#div-but{
+
+    color: #204F75;
+    position: relative;
+    margin:30px 600px 0 100px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+.btn1{
+    background: linear-gradient(to right,#FFD143,#FFD143);
+
+}
+#div-but::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    background:  #f2f2f2;
+    ;
+    box-shadow: 0 0 3 #fff;
+    opacity: .2;
+    filter: blur(1px);
+    opacity: 0.9;
+    top: -30px;
+
+    transition: 0.7s;
+    transform: rotate(-20deg) translateX(-60px);
+
+
+}
+#div-but:hover:before{
+    transform: rotate(-20deg) translate(140px, 70px);
+
+}
+
+.d-none{
+    display: flex;
+    justify-content: flex-start;
+
+}
+

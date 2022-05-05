@@ -1,0 +1,402 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+:root {
+    --blue:#204F75;
+    --yellow:#FFD143;
+  }
+  
+
+/*  ~~~~~ TOP WHITE ~~~~~ 
+.veryTop{
+   padding-top: 4vh; 
+   height: 10vw;
+  
+}
+.mainLogo{
+    height: 9vw;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: flex-start;
+
+
+}
+.Andrade{
+    height: 5vw;
+    font-family: 'Gidugu', sans-serif;
+    font-size: 4.9vw;
+    margin: 0px;
+    padding: 0px;
+}
+.contracting{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.47vw;
+    margin-top :0in;
+    font-family: 'Goldman', cursive;
+}
+.bulbIcon{
+    height: 9vw;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+
+}
+.fa-lightbulb{
+  padding-top: .7vw;
+color: #FFD143;
+    font-size: 6vw;
+}
+*/
+*{
+    box-sizing: border-box;
+}
+/*
+.firstNav{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    align-items:flex-start;
+}
+.veryTop{
+   
+    height: 9.96vw;
+   
+ }
+ .mainLogo{
+     height: 10vw;
+     display:flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content:flex-end;
+     align-items:flex-start;
+     padding-left:6vw ;
+ }
+
+ .mainLogo img{
+width: 20.5vw;
+height: 9.3vw;
+
+ }
+
+
+
+.topPhrase{
+    display:flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content:flex-end;
+     align-items:flex-start;
+
+}
+@media(max-width:990px){
+    .firstNav{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .topPhrase{
+        display: none;
+    
+    }
+    .mainLogo{
+      
+        height: 9vw;           
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content:flex-end;
+        align-items:flex-start;
+        padding-left:6vw ;
+    }
+    .mainLogo img{
+        width: 30.5vw;
+        height: 15.3vw;
+
+     }
+}
+
+.topPhrase p{
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    overflow:hidden;
+    color: #204F75;
+}
+
+
+
+
+*/
+
+/*BLUE PORTION before Grid
+.blueHeader{
+    margin-top: 30px;
+    height: 25vw;
+    background-color: #204F75;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  
+}
+.lightBolt{
+    grid-column: 1 / span 1;
+    grid-row: 1 /span 2;
+    height: 29vw;
+}
+.lightBolt img{
+width: 12.5vw;
+height: 26.2vw;
+border-image-width: auto;
+border-width: 2px;
+border-color:#204F75 ;
+padding-bottom: .098vw;
+
+}
+.theHeader{
+    justify-self: center;
+    align-self:initial;
+
+}
+/*START of GRID*/
+
+/* BOOTSTRAP PORTION as main*/
+.firstNav{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    align-items:flex-start;
+}
+
+
+
+.main{
+    box-sizing: border-box;
+    
+}
+
+.topWording{
+margin-top: 30px;
+display: flex;
+height: 10vw;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content:flex-end;
+align-items:center;
+
+}
+
+.mainLogo img{
+    width: 30vw;
+    height:auto;
+ }
+ #nav-Section{
+    height: 80px;
+    background-color: white;
+ }
+  #nav-Section a{
+      color: #204F75;
+      font-size: 2vw;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 2px;
+      font-family: 'Oswald', sans-serif;
+
+  }
+ .imgTop{
+    height: 380px;
+    width: auto;
+    background-image: url("../Html/switch.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    filter: blur(.2px);
+    background-blend-mode: screen;
+    background-attachment: fixed;
+   /* background: rgb(32,79,117);
+    background: linear-gradient(90deg, rgba(32,79,117,1) 34%, rgba(32,71,95,0.6923144257703081) 88%, rgba(20,36,0,0.5158438375350141) 99%);
+   */ 
+}
+.dark-Hue{
+    z-index: 1;
+    height: 380px;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  
+    background: rgba(0, 0, 0, 0.3); /*can be anything, of course*/
+}
+.jumbotron{
+   background: transparent;
+   color:white;
+   
+}
+.jumbotron p{
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.jumbotron h2{
+
+    font-family: 'Oxygen', sans-serif;
+
+}
+.jumbotron .btn{
+    
+
+    border: none;
+    opacity: .8;
+    
+    
+}
+
+#for-pad{
+    padding-top: 8%;
+}
+
+
+.free-promo{
+    height:150px;
+
+}
+
+
+
+/* Here begins mobile version of bullet points */ 
+
+.white-bk-promo{
+    height: 150px;
+    background-color: #204F75;
+    margin-top: 30px;
+}
+.white-bk-promo p{
+    font-size: 10vw;
+    color: red;
+}
+
+.mobile-bullet{
+    margin-top: 30px;
+    height: 300px;
+    background-color: #204F75;
+    padding-top: 15px;
+}
+.mobile-bullet svg{
+    color: #ffc61a ;
+
+}
+
+
+
+ li{
+
+    font-family: 'NTR', sans-serif;
+    font-size: 20px;
+    list-style-type:square;
+   
+}
+
+li :first-of-type{
+    padding-top: 15px;
+}
+
+
+
+
+
+/*Phone hacks*/
+   @media(max-width:990px){
+    .firstNav{
+        margin-top: 30px;
+     
+    }
+    #nav-Section{
+        display: none;
+     }
+     .desk-bullet{
+        height: 500px;
+        width: auto;
+     
+    }
+
+}
+
+
+
+
+
+
+/*Product section redo*/
+
+.product-section{
+        height: 400px;
+        width: auto;
+        z-index: -1;
+        background: linear-gradient(to bottom, #204F75 0%, #204F75 50%, rgb(255, 255, 255) 10%, rgb(252, 252, 252) 10%);
+}
+
+.box-contain{
+    height: 400px;
+}
+
+.box-yellow{
+    height: 200px;
+    width: 200px;
+    background-color:  #ffc61a ;
+}
+.box-yellow p{
+    font-size: 20px;
+    padding: 5%;
+}
+
+.box-white{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+
+.box-white li{
+color: var(--blue);
+font-size: 18px;
+}
+
+
+
+/*/html, body { 
+    THE SVG animation of the infiniti symbol.
+
+  }  
+  svg {
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    top: 0; right: 0;
+    bottom: 0; left: 0; 
+    margin: auto;
+  }
+  .credit {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .credit a {
+    color: #FDB515;
+    font: 800 75% "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  */

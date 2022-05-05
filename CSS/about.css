@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Quicksand&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    --blue:#204F75;
+    --yellow:#FFD143;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    margin: 0;
+    padding: 0;
+} 
+
+.navbar-custom .navbar-nav .nav-link{
+    color: white;
+    font-size: 2vw;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+
+ }
+
+
+.part-one{
+    height: 500px;
+    width: auto;
+    background-image:url("../Html/imgs/actual.jpg");
+    background-size: cover;
+    background-position :center;
+
+}
+
+
+/*
+
+.part-one-blue{
+height:355px;
+width: auto;
+background-color: var(--blue);
+
+}
+navbar-nav a{
+    font-size: 30px;
+}
+
+.blue-curve{
+    height: 190px;
+    width: auto;
+    color: var(--blue);
+    background-color: var(--blue);
+    border-color: #000 transparent transparent transparent;
+    border-radius: 0 0 50% 50% ;
+
+
+@media(max-width:990px){
+
+}
+
+}
+.part-one{
+        height: 600px;
+        width: auto;
+        background: linear-gradient(-45deg, #ffecb3, #FFD143, #204F75,#204F75,#204F75);
+        background-size: 500% 500%;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+*/
+
+.text-img{
+height: 350px;
+width: auto;
+padding-top: 180px;
+
+}
+
+.note-one p{
+    font-size: 1.1rem;
+    color:white;
+    padding-right: 190px;
+    padding-left: 190px;
+ 
+ 
+}
+
+.big-title{
+    opacity: 1.0;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+
+}
+
+blockquote p{
+    color: var(--blue);
+}
+/*  Yellow portion bellow.:*/
+.yellow-back{
+background-color: var(--yellow);
+height: 55rem;
+width: auto;
+}
+
+/*  bio pic, quote, and contact form*/
+
+
+.pic-row{
+    height:  30rem;
+    width: auto;
+}
+
+.rounded-circle{
+    height: 220px;
+    width: auto;
+}
+
+
+
+.foot-note p{
+    margin-top: 30px;
+ color: white;
+    font-size: 15px;
+}
+
+.mustache{
+    margin-right: 25px;
+    margin-top: 30px;
+    height: 10px;
+    width: auto;
+ 
+}
+.must-div{
+    height: 40px;
+    width: auto;
+}
+.pb-design p{
+ font-size: 10px;
+ color: white;
+}
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}
+ul li{
+    list-style-type:square;
+    font-size: 15px;
+
+    display: inline-block;
+    text-align: left;
+
+}
+
+
+
+/*Phone hacks*/
+@media(max-width:1024px){
+
+.text-img{
+    padding: 10px;
+}
+
+.display-3{
+        color:white;
+        font-family: 'Roboto', sans-serif;
+}
+
+
+.note-one p{
+    font-size: 13px;
+    color:white;
+    padding-right: 0;
+    padding-left: 0;
+ 
+}
+
+
+.navbar-nav a {
+    color: white;
+}
+
+
+}
+
+
+
+@media(max-width:340px){
+
+    
+    .text-img{
+        padding: 10px;
+    }
+    
+    .display-3{
+            color:white;
+            font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    .note-one p{
+        font-size: 13px;
+        color:white;
+        padding-right: 0;
+        padding-left: 0;
+     
+    }
+
+    
+    
+    
+    }
+/*Font is quicksand*/
+
+
+
+
